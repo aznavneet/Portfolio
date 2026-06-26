@@ -31,7 +31,7 @@ export const profile = {
   github: "https://github.com/aznavneet",
   linkedin: "https://www.linkedin.com/in/navneetbhardwaj97/",
   location: "India",
-  resumePath: "/resume/Navneet_Bhardwaj_DevOps_CV.pdf"
+  resumePath: "/resume/Navneet_Bhardwaj_Cloud_DevOps_CV.pdf"
 };
 
 export const navItems = [
@@ -113,20 +113,80 @@ export const experience = [
 ];
 
 export const flagshipProject = {
-  title: "PRISM Flagship Project",
-  kicker: "Featured system design slot",
+  title: "PRISM - AI-Powered CI/CD Failure Intelligence Platform",
+  kicker: "Flagship case study",
   problem:
-    "PRISM is reserved as the flagship case study because the brief explicitly calls it out. Add the repository or project documentation and this section is ready to map the verified architecture, screenshots, CI/CD workflow, and business value.",
+    "PRISM (Pipeline Root Cause Intelligence & Self-Healing Mechanism) helps engineering teams reduce CI/CD investigation time by turning raw pipeline logs into structured, AI-generated root cause analysis, remediation guidance, and delivery insights within minutes of a failure.",
   value:
-    "Designed to present production thinking: clear problem framing, infrastructure choices, deployment flow, monitoring, risks, tradeoffs, and future enhancements.",
-  stack: ["AWS", "Kubernetes", "Docker", "Terraform", "CI/CD", "Monitoring"],
+    "Modern delivery pipelines generate large volumes of build, test, security, container, and deployment logs. PRISM automates the question loop of what failed, why it failed, and how to fix it so teams can reduce MTTR, avoid release delays, and standardize incident investigation.",
+  stack: ["Generative AI", "CI/CD", "GitHub Actions", "Jenkins", "GitLab CI/CD", "Azure DevOps", "Kubernetes"],
   workflow: [
-    "Code pushed to source control",
-    "Automated checks and build pipeline",
-    "Container image published",
-    "Infrastructure changes reviewed",
-    "Deployment promoted with observability"
-  ]
+    "Source code commit",
+    "CI/CD pipeline execution",
+    "Build, test, or deployment failure",
+    "Automated log collection",
+    "PRISM AI analysis engine",
+    "Root cause identification",
+    "Fix recommendation generation",
+    "Developer notification"
+  ],
+  capabilities: [
+    "Automated failure detection",
+    "AI-powered root cause analysis",
+    "Intelligent remediation suggestions",
+    "Build log analysis",
+    "Failure summarization",
+    "Commit-level RCA tracking",
+    "Developer notifications",
+    "Historical failure intelligence"
+  ],
+  aiOutputs: [
+    {
+      title: "Root Cause",
+      description: "Identifies the most probable failure source from pipeline logs and execution context."
+    },
+    {
+      title: "Technical Explanation",
+      description: "Explains the reasoning behind the failure in language engineers can act on quickly."
+    },
+    {
+      title: "Suggested Fix",
+      description: "Generates corrective actions developers can immediately apply to unblock delivery."
+    },
+    {
+      title: "Executive Summary",
+      description: "Produces a concise failure summary for rapid triage and stakeholder visibility."
+    }
+  ],
+  deliveryChannels: ["Workflow summaries", "Markdown RCA reports", "Email notifications"],
+  notificationData: ["Repository", "Branch", "Commit ID", "Build status", "AI-generated RCA", "Suggested fix"],
+  futureIntegrations: ["Microsoft Teams", "Slack", "Jira", "ServiceNow", "Enterprise ticketing platforms"],
+  businessValue: [
+    "Reduce MTTR by accelerating issue diagnosis and resolution.",
+    "Improve developer productivity by eliminating manual log analysis for common failures.",
+    "Accelerate releases by reducing delivery bottlenecks caused by build failures.",
+    "Capture organizational knowledge through searchable failure patterns and remediation history.",
+    "Standardize incident investigation across engineering teams."
+  ],
+  targetPlatforms: ["GitHub Actions", "Jenkins", "GitLab CI/CD", "Azure DevOps", "Kubernetes delivery platforms"],
+  targetIndustries: [
+    "Banking & Financial Services",
+    "Telecommunications",
+    "Retail & E-Commerce",
+    "Healthcare",
+    "SaaS Platforms",
+    "Enterprise Software"
+  ],
+  roadmap: [
+    "Phase 1: AI-powered RCA generation",
+    "Phase 2: Multi-channel notifications",
+    "Phase 3: Failure pattern intelligence",
+    "Phase 4: Predictive failure detection",
+    "Phase 5: AI-assisted self-healing pipelines",
+    "Phase 6: Automated fix pull requests"
+  ],
+  vision:
+    "PRISM transforms CI/CD pipelines from passive execution engines into intelligent engineering assistants that detect failures, explain them, recommend fixes, and proactively assist development teams in resolving them."
 };
 
 export const projects = [
@@ -152,9 +212,37 @@ export const projects = [
 
 export const certifications = [
   {
-    name: "Certifications from CV",
-    issuer: "Pending resume extraction",
-    date: "To verify",
+    name: "Microsoft Certified: Azure Fundamentals",
+    issuer: "Microsoft",
+    date: "Verified",
+    credential: profile.resumePath,
+    icon: Award
+  },
+  {
+    name: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "Verified",
+    credential: profile.resumePath,
+    icon: Award
+  },
+  {
+    name: "GitHub Foundations",
+    issuer: "GitHub",
+    date: "Verified",
+    credential: profile.resumePath,
+    icon: Award
+  },
+  {
+    name: "Containers & Kubernetes Essentials",
+    issuer: "IBM",
+    date: "Verified",
+    credential: profile.resumePath,
+    icon: Award
+  },
+  {
+    name: "Cisco AI Practitioner",
+    issuer: "Cisco",
+    date: "Verified",
     credential: profile.resumePath,
     icon: Award
   }
