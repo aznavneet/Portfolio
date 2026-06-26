@@ -28,8 +28,11 @@ export function ExperienceSection() {
                   ))}
                 </div>
               </div>
-              <p className="mt-5 max-w-3xl text-sm leading-6 text-mist">{item.summary}</p>
               <ul className="mt-5 grid gap-3 md:grid-cols-2">
+                <li className="flex gap-3 text-sm leading-6 text-mist md:col-span-2">
+                  <span className="mt-2 size-1.5 shrink-0 rounded-full bg-aqua" />
+                  {item.summary}
+                </li>
                 {item.responsibilities.map((responsibility) => (
                   <li key={responsibility} className="flex gap-3 text-sm leading-6 text-mist">
                     <span className="mt-2 size-1.5 shrink-0 rounded-full bg-aqua" />
