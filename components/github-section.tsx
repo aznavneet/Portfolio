@@ -13,9 +13,7 @@ export async function GitHubSection() {
     <section id="github" className="border-y border-line bg-white/[0.025] py-20">
       <div className="section-shell">
         <Reveal>
-          <SectionHeading eyebrow="GitHub" title="Live public repository signal from GitHub.">
-            Repository cards are fetched at build/runtime with hourly revalidation, so the site can reflect recent public work.
-          </SectionHeading>
+          <SectionHeading eyebrow="GitHub" title="GitHub" />
         </Reveal>
         <div className="mt-8 flex flex-wrap gap-2">
           {languages.map((language) => (

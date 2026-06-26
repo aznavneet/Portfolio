@@ -6,9 +6,7 @@ export function ExperienceSection() {
   return (
     <section id="experience" className="section-shell py-20">
       <Reveal>
-        <SectionHeading eyebrow="Experience" title="A concise timeline designed for technical hiring screens.">
-          Cloud and DevOps roles focused on production infrastructure, CI/CD automation, container platforms, monitoring, and operational reliability.
-        </SectionHeading>
+        <SectionHeading eyebrow="Experience" title="Experience" />
       </Reveal>
       <div className="mt-12 space-y-6">
         {experience.map((item) => (

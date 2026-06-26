@@ -7,9 +7,7 @@ export function SkillsSection() {
     <section id="skills" className="border-y border-line bg-white/[0.025] py-20">
       <div className="section-shell">
         <Reveal>
-          <SectionHeading eyebrow="Skills" title="Cloud, platform, delivery, and reliability toolkit.">
-            Categorized for fast recruiter scanning while still reflecting the operational surface area of modern DevOps work.
-          </SectionHeading>
+          <SectionHeading eyebrow="Skills" title="Cloud, platform, delivery, and reliability toolkit." />
         </Reveal>
         <div className="mt-10 grid gap-4 lg:grid-cols-5">
           {skillGroups.map((group, index) => (

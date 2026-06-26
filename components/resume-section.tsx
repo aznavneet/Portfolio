@@ -9,9 +9,7 @@ export function ResumeSection() {
       <div className="section-shell">
         <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
           <Reveal>
-            <SectionHeading eyebrow="Resume" title="Interactive resume viewer with direct download.">
-              Keep the resume in <span className="font-mono text-cloud">public/resume</span> and Vercel will serve it as a static asset.
-            </SectionHeading>
+            <SectionHeading eyebrow="Resume" title="Resume" />
             <Button href={profile.resumePath} variant="primary" className="mt-8">
               <Download className="size-4" />
               Download CV

@@ -25,9 +25,10 @@ import {
 export const profile = {
   name: "Navneet Bhardwaj",
   title: "Cloud & DevOps Engineer",
-  headline: "Production-focused engineer building reliable cloud infrastructure, automation, and delivery systems.",
+  headline:
+    "I design and build production-ready cloud platforms that enable teams to ship software faster, safer, and more reliably. With expertise in AWS, Kubernetes, Docker, Terraform, GitHub Actions, and Infrastructure as Code, I focus on automation, scalability, security, observability, and resilient system design. I enjoy solving complex infrastructure challenges and transforming manual operational processes into efficient, automated workflows.",
   summary:
-    "Cloud and DevOps engineer with 4.5 years of experience across infrastructure automation, CI/CD, Linux operations, containers, monitoring, and cloud-native delivery. The portfolio is intentionally focused on verifiable engineering signals from the resume, GitHub profile, and project documentation.",
+    "I design and build production-ready cloud platforms that enable teams to ship software faster, safer, and more reliably. With expertise in AWS, Kubernetes, Docker, Terraform, GitHub Actions, and Infrastructure as Code, I focus on automation, scalability, security, observability, and resilient system design. I enjoy solving complex infrastructure challenges and transforming manual operational processes into efficient, automated workflows.",
   email: "navneetbhardwaj935@gmail.com",
   github: "https://github.com/aznavneet",
   linkedin: "https://www.linkedin.com/in/navneetbhardwaj97/",

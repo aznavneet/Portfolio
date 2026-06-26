@@ -6,9 +6,7 @@ export function CertificationsSection() {
   return (
     <section className="section-shell py-20">
       <Reveal>
-        <SectionHeading eyebrow="Certifications" title="Credential cards ready for verified certificates.">
-          The structure is ready for issuer logos, credential URLs, and issue dates once certificates are provided.
-        </SectionHeading>
+        <SectionHeading eyebrow="Certifications" title="Certifications" />
       </Reveal>
       <div className="mt-10 grid gap-4 md:grid-cols-3">
         {certifications.map((certification) => (
