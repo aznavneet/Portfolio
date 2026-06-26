@@ -6,7 +6,7 @@ import { flagshipProject } from "@/data/portfolio";
 
 export function FeaturedProject() {
   return (
-    <section className="border-y border-line bg-white/[0.025] py-20">
+    <section id="projects" className="border-y border-line bg-white/[0.025] py-20">
       <div className="section-shell">
         <Reveal>
           <SectionHeading eyebrow={flagshipProject.kicker} title={flagshipProject.title}>

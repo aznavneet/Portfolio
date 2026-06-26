@@ -1,5 +1,6 @@
 import {
   Award,
+  BookOpenText,
   Boxes,
   Braces,
   Cloud,
@@ -39,6 +40,7 @@ export const navItems = [
   { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
+  { label: "Research", href: "#research" },
   { label: "GitHub", href: "#github" },
   { label: "Resume", href: "#resume" },
   { label: "Contact", href: "#contact" }
@@ -189,27 +191,6 @@ export const flagshipProject = {
     "PRISM transforms CI/CD pipelines from passive execution engines into intelligent engineering assistants that detect failures, explain them, recommend fixes, and proactively assist development teams in resolving them."
 };
 
-export const projects = [
-  {
-    title: "Cloud Infrastructure Portfolio",
-    description:
-      "Production-ready Next.js portfolio with CI, GitHub integration, SEO, responsive UI, and Vercel deployment support.",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "GitHub Actions", "Vercel"],
-    tags: ["Frontend", "CI", "Portfolio"],
-    github: "https://github.com/aznavneet/Portfolio",
-    impact: "Creates a polished technical surface for recruiters and engineering managers."
-  },
-  {
-    title: "GitHub Projects",
-    description:
-      "Live repository cards are fetched from GitHub so verified public work can be highlighted without manual duplication.",
-    stack: ["GitHub API", "Automation", "Repository Metadata"],
-    tags: ["GitHub", "Automation"],
-    github: "https://github.com/aznavneet",
-    impact: "Keeps project data tied to public source-of-truth repositories."
-  }
-];
-
 export const certifications = [
   {
     name: "Microsoft Certified: Azure Fundamentals",
@@ -245,6 +226,33 @@ export const certifications = [
     date: "Verified",
     credential: profile.resumePath,
     icon: Award
+  }
+];
+
+export const researchPapers = [
+  {
+    title: "Nutanix Hybrid Cloud From Security Perspective",
+    publisher: "John Wiley & Sons",
+    date: "Nov 30, 2021",
+    topic: "Hybrid Cloud Security",
+    href: "https://books.google.co.in/books?hl=en&lr=&id=co1SEAAAQBAJ&oi=fnd&pg=PA357&ots=q2JP4VE4pr&sig=W-q0ODQTrf9fQoGkVWRIBTG90Xs&redir_esc=y#v=onepage&q&f=false",
+    icon: BookOpenText
+  },
+  {
+    title: "A Study on Google Cloud Platform (GCP) and Its Security",
+    publisher: "John Wiley & Sons",
+    date: "Nov 30, 2021",
+    topic: "Google Cloud Security",
+    href: "https://books.google.co.in/books?hl=en&lr=&id=-RBSEAAAQBAJ&oi=fnd&pg=PA315&ots=tFA2ZkXfKN&sig=A4LmfHlCFQ6jpd-3Gj2hm66znmk&redir_esc=y#v=onepage&q&f=false",
+    icon: BookOpenText
+  },
+  {
+    title: "Case Study of Azure and Azure Security Practices",
+    publisher: "John Wiley & Sons",
+    date: "Nov 30, 2021",
+    topic: "Azure Security",
+    href: "https://books.google.co.in/books?hl=en&lr=&id=-RBSEAAAQBAJ&oi=fnd&pg=PA339&ots=tFA2ZkXgIO&sig=TKaKhsNQClt1Y2XKpXhdRIEI8qA&redir_esc=y#v=onepage&q&f=false",
+    icon: BookOpenText
   }
 ];
 
