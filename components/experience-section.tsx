@@ -7,7 +7,7 @@ export function ExperienceSection() {
     <section id="experience" className="section-shell py-20">
       <Reveal>
         <SectionHeading eyebrow="Experience" title="A concise timeline designed for technical hiring screens.">
-          Company-specific roles and achievements should be swapped in after final resume verification.
+          Cloud and DevOps roles focused on production infrastructure, CI/CD automation, container platforms, monitoring, and operational reliability.
         </SectionHeading>
       </Reveal>
       <div className="mt-12 space-y-6">
@@ -18,7 +18,9 @@ export function ExperienceSection() {
                 <div>
                   <p className="font-mono text-xs uppercase tracking-[0.2em] text-aqua">{item.duration}</p>
                   <h3 className="mt-3 text-2xl font-semibold text-cloud">{item.role}</h3>
-                  <p className="mt-1 text-sm text-mist">{item.company}</p>
+                  <p className="mt-1 text-sm text-mist">
+                    {item.company} · {item.location}
+                  </p>
                 </div>
                 <div className="flex max-w-xl flex-wrap gap-2">
                   {item.technologies.map((tech) => (

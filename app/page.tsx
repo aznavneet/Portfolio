@@ -11,6 +11,7 @@ import { ProjectsSection } from "@/components/projects-section";
 import { ResumeSection } from "@/components/resume-section";
 import { SkillsSection } from "@/components/skills-section";
 import { profile, skillGroups } from "@/data/portfolio";
+import { getSiteUrl } from "@/lib/site";
 
 export default function Home() {
   const structuredData = {
@@ -19,7 +20,7 @@ export default function Home() {
     name: profile.name,
     jobTitle: profile.title,
     email: profile.email,
-    url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://navneet-bhardwaj.vercel.app",
+    url: getSiteUrl(),
     sameAs: [profile.github, profile.linkedin],
     knowsAbout: skillGroups.flatMap((group) => group.skills)
   };

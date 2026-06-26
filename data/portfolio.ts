@@ -81,18 +81,34 @@ export const skillGroups = [
 
 export const experience = [
   {
-    company: "Verified experience from resume",
-    role: "Cloud / DevOps Engineering",
-    duration: "4.5 years",
+    company: "Infosys",
+    role: "Cloud & DevOps Engineer",
+    duration: "Feb 2025 - Present",
+    location: "Noida, India",
     summary:
-      "Detailed company history should be finalized after resume extraction review. The site keeps this section honest instead of inventing employers or achievements.",
+      "Designing and operating AWS cloud infrastructure, container platforms, CI/CD automation, and cost-optimization workflows for production-grade services.",
     responsibilities: [
-      "Cloud infrastructure operations and automation",
-      "CI/CD pipeline implementation and maintenance",
-      "Linux, containers, monitoring, and release support",
-      "Infrastructure documentation and operational handover"
+      "Designed and deployed highly available microservices on AWS EKS using Docker and Helm, achieving 99.9% uptime with Application Load Balancer and Auto Scaling.",
+      "Built and managed CI/CD pipelines using GitHub Actions, automating build, test, and deployment workflows and reducing deployment time by 30%.",
+      "Provisioned AWS infrastructure using Terraform, including VPC, EC2, IAM, and Security Groups, improving consistency and reducing manual effort.",
+      "Developed AWS Lambda functions in Python for EBS snapshot cleanup and S3 lifecycle policies, optimizing storage costs."
     ],
-    technologies: ["AWS", "Azure", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub Actions", "Linux"]
+    technologies: ["AWS", "EKS", "Docker", "Helm", "GitHub Actions", "Terraform", "Python", "Lambda", "S3"]
+  },
+  {
+    company: "Tata Consultancy Services",
+    role: "Cloud & DevOps Engineer",
+    duration: "Aug 2021 - Feb 2025",
+    location: "Kolkata, India",
+    summary:
+      "Built and maintained delivery automation, containerized deployments, observability, and Linux operations for cloud and DevOps environments.",
+    responsibilities: [
+      "Built CI/CD pipelines using GitHub Actions integrated with SonarQube, reducing deployment failures by 50% and improving release speed by 35%.",
+      "Deployed containerized applications using Docker and Kubernetes, ensuring high availability across environments.",
+      "Implemented Prometheus and Grafana monitoring with alerting, improving observability and incident resolution time.",
+      "Automated Linux operations using Bash scripting, reducing manual intervention and production alerts."
+    ],
+    technologies: ["GitHub Actions", "SonarQube", "Docker", "Kubernetes", "Prometheus", "Grafana", "Linux", "Bash"]
   }
 ];
 
