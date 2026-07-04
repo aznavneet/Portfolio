@@ -30,6 +30,12 @@ export function Navbar({ onCommand }: { onCommand: () => void }) {
               {item.label}
             </Link>
           ))}
+          <Link
+            href="https://medium.com/@navneetbhardwaj935"
+            className="focus-ring rounded-md px-3 py-2 text-sm text-mist transition hover:bg-white/[0.055] hover:text-cloud"
+          >
+            Blog
+          </Link>
         </nav>
 
         <div className="hidden items-center gap-2 md:flex">
@@ -87,9 +93,13 @@ export function Navbar({ onCommand }: { onCommand: () => void }) {
                 {item.label}
               </Link>
             ))}
-            <Button href={`mailto:${profile.email}`} variant="primary" className="mt-2">
-              Contact
-            </Button>
+            <Link
+              href="https://medium.com/@navneetbhardwaj935"
+              onClick={() => setOpen(false)}
+              className="focus-ring rounded-md px-3 py-3 text-sm text-mist hover:bg-white/[0.055] hover:text-cloud"
+            >
+              Blog
+            </Link>
           </div>
         </div>
       </div>
