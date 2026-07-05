@@ -48,7 +48,7 @@ export const navItems = [
 ];
 
 export const metrics = [
-  { label: "Years Experience", value: "4.5" },
+  { label: "Years Experience", value: "5" },
   { label: "Primary Focus", value: "Cloud" },
   { label: "Delivery Style", value: "CI/CD" },
   { label: "Ops Mindset", value: "Platform Engineering" }

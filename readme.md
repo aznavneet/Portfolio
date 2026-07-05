@@ -4,7 +4,7 @@ Premium Cloud and DevOps portfolio built with Next.js App Router, TypeScript, Ta
 
 ## Overview
 
-The site is designed for Cloud Engineer, DevOps Engineer, Platform Engineer, Kubernetes Engineer, AWS Engineer, and SRE hiring screens. It emphasizes production infrastructure, CI/CD, cloud operations, monitoring, security, and verifiable project work.
+The site is designed for Cloud Engineer, DevOps Engineer, Platform Engineer, Kubernetes Engineer, AWS Engineer, and Platform Engineering hiring screens. It emphasizes production infrastructure, CI/CD, cloud operations, monitoring, security, and verifiable project work.
 
 ## Folder Structure
 
