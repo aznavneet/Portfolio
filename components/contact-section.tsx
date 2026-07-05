@@ -13,7 +13,7 @@ export function ContactSection() {
       <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <Reveal>
           <SectionHeading eyebrow="Contact" title="For cloud, platform, DevOps, AI DevOps, Kubernetes, AWS, and Platform Engineering roles.">
-            Reach out directly by email, LinkedIn, or GitHub. The form supports Formspree through an environment variable.
+            Reach out directly by email, LinkedIn, or GitHub.
           </SectionHeading>
           <div className="mt-8 grid gap-3 text-sm text-mist">
             <Link href={`mailto:${profile.email}`} className="focus-ring flex items-center gap-3 rounded-md p-2 hover:bg-white/[0.05] hover:text-cloud">
