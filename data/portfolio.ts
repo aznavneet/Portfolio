@@ -48,10 +48,10 @@ export const navItems = [
 ];
 
 export const metrics = [
-  { label: "Years Experience", value: "5" },
-  { label: "Primary Focus", value: "Cloud" },
-  { label: "Delivery Style", value: "CI/CD" },
-  { label: "Automation First", value: "Platform Engineering" }
+  { label: "Experience", value: "5+ Years" },
+  { label: "Cloud", value: "AWS" },
+  { label: "Containers", value: "Kubernetes" },
+  { label: "IaC", value: "Terraform" }
 ];
 
 export const skillGroups = [
