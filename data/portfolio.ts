@@ -194,38 +194,52 @@ export const flagshipProject = {
 
 export const certifications = [
   {
-    name: "Microsoft Certified: Azure Fundamentals",
-    issuer: "Microsoft",
-    date: "Verified",
-    credential: profile.resumePath,
-    icon: Award
-  },
-  {
     name: "AWS Certified Cloud Practitioner",
     issuer: "Amazon Web Services",
     date: "Verified",
-    credential: profile.resumePath,
+    credlyUrl: "https://www.credly.com/badges/1cfbb40a-b2bf-475d-8e89-4910da3aa58b/public_url",
+    icon: Award
+  },
+  {
+    name: "Microsoft Certified: Azure Fundamentals",
+    issuer: "Microsoft",
+    date: "Verified",
+    credlyUrl: "https://www.credly.com/badges/1c78940f-a55e-4ab1-a9f9-acefc37a6961/",
     icon: Award
   },
   {
     name: "GitHub Foundations",
     issuer: "GitHub",
     date: "Verified",
-    credential: profile.resumePath,
+    credlyUrl: "https://www.credly.com/earner/earned/badge/1e8e4dac-147e-4989-a920-ec92ae72bd14",
+    icon: Award
+  },
+  {
+    name: "Docker Essentials",
+    issuer: "Docker",
+    date: "Verified",
+    credlyUrl: "https://www.credly.com/earner/earned/badge/4418da20-2bb5-4fcf-9b4e-030ae5eec5b8",
     icon: Award
   },
   {
     name: "Containers & Kubernetes Essentials",
     issuer: "IBM",
     date: "Verified",
-    credential: profile.resumePath,
+    credlyUrl: "https://www.credly.com/earner/earned/badge/7bfb5641-2bfc-4563-b67c-941b9dd73ccd",
     icon: Award
   },
   {
-    name: "Cisco AI Practitioner",
-    issuer: "Cisco",
+    name: "Introduction to GitOps",
+    issuer: "Harness",
     date: "Verified",
-    credential: profile.resumePath,
+    credlyUrl: "https://www.credly.com/earner/earned/badge/ec1778c5-4993-4d61-8a44-433256e00c4d",
+    icon: Award
+  },
+  {
+    name: "Harness Certified Continuous Delivery & GitOps Developer",
+    issuer: "Harness",
+    date: "Verified",
+    credlyUrl: "https://www.credly.com/earner/earned/badge/11a08d4a-e56a-43d0-b920-e12414a8d6a7",
     icon: Award
   }
 ];
