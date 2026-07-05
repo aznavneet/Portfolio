@@ -51,7 +51,7 @@ export const metrics = [
   { label: "Years Experience", value: "5" },
   { label: "Primary Focus", value: "Cloud" },
   { label: "Delivery Style", value: "CI/CD" },
-  { label: "Ops Mindset", value: "Platform Engineering" }
+  { label: "Automation First", value: "Platform Engineering" }
 ];
 
 export const skillGroups = [
