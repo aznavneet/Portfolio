@@ -26,9 +26,9 @@ export const profile = {
   name: "Navneet Bhardwaj",
   title: "Cloud & DevOps Engineer",
   headline:
-    "I design and build production-ready cloud platforms that enable teams to ship software faster, safer, and more reliably. With expertise in AWS, Kubernetes, Docker, Terraform, GitHub Actions, and Infrastructure as Code, I focus on automation, scalability, security, observability, and resilient system design. I enjoy solving complex infrastructure challenges and transforming manual operational processes into efficient, automated workflows.",
+    "I design and build production-ready cloud platforms that enable teams to ship software faster, safer, and more reliably. With expertise in AWS, Kubernetes, Docker, Terraform, GitHub Actions, and Infrastructure as Code, I focus on automation, scalability, security, observability, and resilient system design. I enjoy solving complex infrastructure challenges and transforming manual operational processes into efficient, automated workflows. My work extends into AI DevOps, leveraging AI-powered tools for intelligent CI/CD, automated root cause analysis, and predictive infrastructure management.",
   summary:
-    "I design and build production-ready cloud platforms that enable teams to ship software faster, safer, and more reliably. With expertise in AWS, Kubernetes, Docker, Terraform, GitHub Actions, and Infrastructure as Code, I focus on automation, scalability, security, observability, and resilient system design. I enjoy solving complex infrastructure challenges and transforming manual operational processes into efficient, automated workflows.",
+    "I design and build production-ready cloud platforms that enable teams to ship software faster, safer, and more reliably. With expertise in AWS, Kubernetes, Docker, Terraform, GitHub Actions, and Infrastructure as Code, I focus on automation, scalability, security, observability, and resilient system design. I enjoy solving complex infrastructure challenges and transforming manual operational processes into efficient, automated workflows. My work extends into AI DevOps, leveraging AI-powered tools for intelligent CI/CD, automated root cause analysis, and predictive infrastructure management.",
   email: "navneetbhardwaj935@gmail.com",
   github: "https://github.com/aznavneet",
   linkedin: "https://www.linkedin.com/in/navneetbhardwaj97/",
@@ -58,27 +58,27 @@ export const skillGroups = [
   {
     title: "Cloud & Infrastructure",
     icon: Cloud,
-    skills: ["AWS", "Azure", "Terraform", "CloudFormation", "IAM", "Networking", "Security"]
+    skills: ["AWS", "Azure", "Terraform", "CloudFormation", "IAM", "Networking", "Security", "AI Infrastructure"]
   },
   {
     title: "Containers & Platform",
     icon: Container,
-    skills: ["Docker", "Kubernetes", "RBAC", "Linux", "Shell", "Platform Engineering"]
+    skills: ["Docker", "Kubernetes", "RBAC", "Linux", "Shell", "Platform Engineering", "AI Platform"]
   },
   {
     title: "Delivery Automation",
     icon: Workflow,
-    skills: ["GitHub Actions", "GitLab CI", "Jenkins", "Git", "Release Workflows", "Pipeline Design"]
+    skills: ["GitHub Actions", "GitLab CI", "Jenkins", "Git", "Release Workflows", "Pipeline Design", "AI DevOps"]
   },
   {
     title: "Observability & Reliability",
     icon: Gauge,
-    skills: ["Prometheus", "Grafana", "ELK", "Monitoring", "Incident Readiness", "Platform Engineering Practices"]
+    skills: ["Prometheus", "Grafana", "ELK", "Monitoring", "Incident Readiness", "Platform Engineering Practices", "AI Observability"]
   },
   {
     title: "Engineering Toolkit",
     icon: Code2,
-    skills: ["Python", "Bash", "YAML", "Infrastructure as Code", "Documentation", "Automation"]
+    skills: ["Python", "Bash", "YAML", "Infrastructure as Code", "Documentation", "Automation", "AI/ML Tools"]
   }
 ];
 
@@ -104,14 +104,15 @@ export const experience = [
     duration: "Aug 2021 - Feb 2025",
     location: "Kolkata, India",
     summary:
-      "Built and maintained delivery automation, containerized deployments, observability, and Linux operations for cloud and DevOps environments.",
+      "Built and maintained delivery automation, containerized deployments, observability, and Linux operations for cloud and DevOps environments. Applied AI-driven insights for infrastructure optimization and automated incident response.",
     responsibilities: [
       "Built CI/CD pipelines using GitHub Actions integrated with SonarQube, reducing deployment failures by 50% and improving release speed by 35%.",
       "Deployed containerized applications using Docker and Kubernetes, ensuring high availability across environments.",
       "Implemented Prometheus and Grafana monitoring with alerting, improving observability and incident resolution time.",
-      "Automated Linux operations using Bash scripting, reducing manual intervention and production alerts."
+      "Automated Linux operations using Bash scripting, reducing manual intervention and production alerts.",
+      "Leveraged AI-powered log analysis tools for proactive issue detection and root cause analysis."
     ],
-    technologies: ["GitHub Actions", "SonarQube", "Docker", "Kubernetes", "Prometheus", "Grafana", "Linux", "Bash"]
+    technologies: ["GitHub Actions", "SonarQube", "Docker", "Kubernetes", "Prometheus", "Grafana", "Linux", "Bash", "AI/ML Tools"]
   }
 ];
 

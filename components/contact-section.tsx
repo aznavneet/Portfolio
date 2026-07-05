@@ -12,7 +12,7 @@ export function ContactSection() {
     <section id="contact" className="section-shell py-20">
       <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <Reveal>
-          <SectionHeading eyebrow="Contact" title="For cloud, platform, DevOps, Kubernetes, AWS, and Platform Engineering roles.">
+          <SectionHeading eyebrow="Contact" title="For cloud, platform, DevOps, AI DevOps, Kubernetes, AWS, and Platform Engineering roles.">
             Reach out directly by email, LinkedIn, or GitHub. The form supports Formspree through an environment variable.
           </SectionHeading>
           <div className="mt-8 grid gap-3 text-sm text-mist">
