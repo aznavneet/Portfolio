@@ -51,7 +51,7 @@ export const metrics = [
   { label: "Years Experience", value: "4.5" },
   { label: "Primary Focus", value: "Cloud" },
   { label: "Delivery Style", value: "CI/CD" },
-  { label: "Ops Mindset", value: "SRE" }
+  { label: "Ops Mindset", value: "Platform Engineering" }
 ];
 
 export const skillGroups = [
@@ -73,7 +73,7 @@ export const skillGroups = [
   {
     title: "Observability & Reliability",
     icon: Gauge,
-    skills: ["Prometheus", "Grafana", "ELK", "Monitoring", "Incident Readiness", "SRE Practices"]
+    skills: ["Prometheus", "Grafana", "ELK", "Monitoring", "Incident Readiness", "Platform Engineering Practices"]
   },
   {
     title: "Engineering Toolkit",

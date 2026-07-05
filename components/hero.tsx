@@ -10,7 +10,7 @@ export function Hero() {
       <Reveal>
         <div className="inline-flex items-center gap-2 rounded-md border border-line bg-white/[0.045] px-3 py-2 font-mono text-xs text-aqua">
           <span className="size-2 rounded-full bg-aqua" />
-          Available for Cloud, DevOps, Platform and SRE roles
+          Available for Cloud, DevOps, Platform and Platform Engineering roles
         </div>
         <h1 className="mt-6 text-balance text-5xl font-semibold tracking-normal text-cloud sm:text-6xl lg:text-7xl">
           {profile.name}
