@@ -89,20 +89,31 @@ export const experience = [
     duration: "Feb 2025 – Present",
     location: "Noida, India",
     summary:
-      "Cloud & DevOps Engineer supporting enterprise-scale cloud platforms, delivery automation, and infrastructure governance across multiple client engagements.",
-    responsibilities: [
-      "Client: Charter Communications (USA) | Role: Cloud & DevOps Engineer",
-      "Designed and deployed highly available microservices on AWS EKS using Docker and Helm, achieving 99.9% application uptime with Application Load Balancer and Auto Scaling.",
-      "Built and managed CI/CD pipelines using GitHub Actions, automating build, test, and deployment workflows and reducing deployment time by 30%.",
-      "Provisioned AWS infrastructure using Terraform, including VPC, EC2, IAM, and Security Groups, improving deployment consistency and minimizing manual effort.",
-      "Developed Python-based AWS Lambda functions for automated EBS snapshot cleanup and implemented S3 lifecycle policies to optimize storage costs.",
-      "Client: Aperam Luxembourg | Role: Platform Engineer",
-      "Deployed AWS Account Factory for Terraform (AFT) in an AWS Control Tower environment to automate standardized AWS account provisioning and governance across AWS Organizations.",
-      "Developed Azure DevOps CI/CD pipelines to automate Terraform validation, security scanning (TFSec), planning, and deployment of AFT infrastructure.",
-      "Integrated TFSec into the Terraform deployment pipeline to enforce Infrastructure as Code security best practices and detect configuration issues before deployment.",
-      "Built and maintained reusable Terraform modules and automated infrastructure deployment workflows, improving consistency, scalability, and operational efficiency across AWS environments."
-    ],
-    technologies: ["AWS", "EKS", "Docker", "Helm", "GitHub Actions", "Terraform", "Azure DevOps", "Python", "Lambda", "S3", "TFSec", "AWS Control Tower", "AFT"]
+      "Cloud & DevOps Engineer building enterprise-scale cloud platforms, faciliating delivery automation, and infrastructure governance across multiple client engagements.",
+    engagements: [
+      {
+        client: "Charter Communications (USA)",
+        role: "Cloud & DevOps Engineer",
+        responsibilities: [
+          "Designed and deployed highly available microservices on AWS EKS using Docker and Helm, achieving 99.9% application uptime with Application Load Balancer and Auto Scaling.",
+          "Built and managed CI/CD pipelines using GitHub Actions, automating build, test, and deployment workflows and reducing deployment time by 30%.",
+          "Provisioned AWS infrastructure using Terraform, including VPC, EC2, IAM, and Security Groups, improving deployment consistency and minimizing manual effort.",
+          "Developed Python-based AWS Lambda functions for automated EBS snapshot cleanup and implemented S3 lifecycle policies to optimize storage costs."
+        ],
+        technologies: ["AWS", "EKS", "Docker", "Helm", "GitHub Actions", "Terraform", "Python", "Lambda", "S3"]
+      },
+      {
+        client: "Aperam Luxembourg",
+        role: "Platform Engineer",
+        responsibilities: [
+          "Deployed AWS Account Factory for Terraform (AFT) in an AWS Control Tower environment to automate standardized AWS account provisioning and governance across AWS Organizations.",
+          "Developed Azure DevOps CI/CD pipelines to automate Terraform validation, security scanning (TFSec), planning, and deployment of AFT infrastructure.",
+          "Integrated TFSec into the Terraform deployment pipeline to enforce Infrastructure as Code security best practices and detect configuration issues before deployment.",
+          "Built and maintained reusable Terraform modules and automated infrastructure deployment workflows, improving consistency, scalability, and operational efficiency across AWS environments."
+        ],
+        technologies: ["AWS", "Azure DevOps", "Terraform", "TFSec", "AWS Control Tower", "AFT"]
+      }
+    ]
   },
   {
     company: "Tata Consultancy Services",
@@ -111,13 +122,19 @@ export const experience = [
     location: "Kolkata, India",
     summary:
       "Cloud & DevOps Engineer focused on automation, observability, and production operations for enterprise application delivery and cloud environments.",
-    responsibilities: [
-      "Built and maintained GitHub Actions CI/CD pipelines integrated with SonarQube to automate code quality checks, reducing deployment failures by 50% and improving release speed by 35%.",
-      "Containerized applications using Docker and deployed workloads on Kubernetes, ensuring scalable, highly available, and consistent application deployments across environments.",
-      "Implemented infrastructure and application monitoring using Prometheus and Grafana, configuring dashboards and alerting to improve observability and accelerate incident resolution.",
-      "Automated Linux operational tasks using Bash scripting, streamlining routine maintenance activities, reducing manual effort, and improving operational efficiency."
-    ],
-    technologies: ["GitHub Actions", "SonarQube", "Docker", "Kubernetes", "Prometheus", "Grafana", "Linux", "Bash"]
+    engagements: [
+      {
+        client: "Elisa Corporation (Finland)",
+        role: "Cloud & DevOps Engineer",
+        responsibilities: [
+          "Built and maintained GitHub Actions CI/CD pipelines integrated with SonarQube to automate code quality checks, reducing deployment failures by 50% and improving release speed by 35%.",
+          "Containerized applications using Docker and deployed workloads on Kubernetes, ensuring scalable, highly available, and consistent application deployments across environments.",
+          "Implemented infrastructure and application monitoring using Prometheus and Grafana, configuring dashboards and alerting to improve observability and accelerate incident resolution.",
+          "Automated Linux operational tasks using Bash scripting, streamlining routine maintenance activities, reducing manual effort, and improving operational efficiency."
+        ],
+        technologies: ["GitHub Actions", "SonarQube", "Docker", "Kubernetes", "Prometheus", "Grafana", "Linux", "Bash"]
+      }
+    ]
   }
 ];
 
