@@ -23,17 +23,17 @@ import {
 } from "lucide-react";
 
 export const profile = {
-  name: "Thaskiya Sulthana G",
+  name: "Navneet Bhardwaj",
   title: "Cloud & DevOps Engineer",
   headline:
-    "Highly skilled Cloud and DevOps Engineer with 9+ years of experience in designing, deploying, and managing scalable infrastructure on AWS, leveraging Terraform for infrastructure-as-code automation. With AWS Certified Solutions Architect - Associate certification, leveraging expertise in designing and deploying scalable, secure, and efficient cloud architectures that drive business success",
+    "I design and build production-ready cloud platforms that enable teams to ship software faster, safer, and more reliably. With expertise in AWS, Kubernetes, Docker, Terraform, GitHub Actions, and Infrastructure as Code, I focus on automation, scalability, security, observability, and resilient system design. I enjoy solving complex infrastructure challenges and transforming manual operational processes into efficient, automated workflows. My work extends into AI DevOps, leveraging AI-powered tools for intelligent CI/CD, automated root cause analysis, and predictive infrastructure management.",
   summary:
-    "Highly skilled Cloud and DevOps Engineer with 9+ years of experience in designing, deploying, and managing scalable infrastructure on AWS, leveraging Terraform for infrastructure-as-code automation. With AWS Certified Solutions Architect - Associate certification, leveraging expertise in designing and deploying scalable, secure, and efficient cloud architectures that drive business success. Expertise in Amazon Web Services (AWS) environment and good knowledge of AWS services like, VPC, EC2, S3, Elastic Load-balancers, Cloud Front, Autoscaling Groups (ASG), Elastic Block Storage, RDS, IAM, CloudFormation, Athena, CloudWatch, Elastic File System, Lambda, Cloud Trail, Control Tower, AWS Organization, Code Build. I used IAM to create new accounts, roles and groups. Used Auto scaling and Elastic Load Balancer features on EC2 instances to serve the end users using applications during unexpected traffic/demand. Configuring IAM roles for EC2 instances and assigns them policies granting specific level access to S3 buckets. Configured S3 Buckets for EBS backed Snapshots, versioning for data backups and setting up lifecycle management policies. Using Cloud Watch service, created alarms for monitoring the EC2 server’s performance like CPU Utilization, disk usage etc. Implemented Auto Scaling for high application availability. Created elastic load-balancers (ELB) for different applications. Utilized Amazon Route53 to manage DNS zones, assign public DNS names to elastic load balancers IPs. Created and worked on Elastic Block Store and Instance Store Volumes. Configured NAT instance for internal servers within the private subnets thereby not being exposed to the public internet. Used Elastic Load balancer, Auto scaling, Security groups and NACL’s to manage network security. Configuring of Virtual Private Cloud (VPC) with networking of subnets containing servers. Creating VPC, ELB, etc. through CloudFormation stack.",
-  email: "thaskiyasulthanasifu@gmail.com",
-  github: "",
-  linkedin: "",
-  location: "Bangalore, India",
-  resumePath: "/resume/Thaskiya Sulthana G-AWS Devops1.txt"
+    "I design and build production-ready cloud platforms that enable teams to ship software faster, safer, and more reliably. With expertise in AWS, Kubernetes, Docker, Terraform, GitHub Actions, and Infrastructure as Code, I focus on automation, scalability, security, observability, and resilient system design. I enjoy solving complex infrastructure challenges and transforming manual operational processes into efficient, automated workflows. My work extends into AI DevOps, leveraging AI-powered tools for intelligent CI/CD, automated root cause analysis, and predictive infrastructure management.",
+  email: "navneetbhardwaj935@gmail.com",
+  github: "https://github.com/aznavneet",
+  linkedin: "https://www.linkedin.com/in/navneetbhardwaj97/",
+  location: "India",
+  resumePath: "/resume/Navneet_Bhardwaj_Cloud_DevOps_CV.pdf"
 };
 
 export const navItems = [
@@ -56,66 +56,83 @@ export const metrics = [
 
 export const skillGroups = [
   {
-    title: "Cloud Platforms",
+    title: "Cloud & Infrastructure",
     icon: Cloud,
-    skills: ["Amazon Web Services (AWS)", "VPC", "EC2", "S3", "Elastic Load-balancers", "Cloud Front", "Autoscaling Groups (ASG)", "Elastic Block Storage", "RDS", "IAM", "CloudFormation", "Athena", "CloudWatch", "Elastic File System", "Lambda", "Cloud Trail", "Control Tower", "AWS Organization", "Code Build"]
+    skills: ["AWS", "Azure", "Terraform", "CloudFormation", "IAM", "Networking", "Security", "AI Infrastructure"]
   },
   {
-    title: "CI/CD",
-    icon: Workflow,
-    skills: ["AWS Pipeline", "Jenkins", "GitHub Actions"]
-  },
-  {
-    title: "Containerization & Orchestration",
+    title: "Containers & Platform",
     icon: Container,
-    skills: ["Docker", "Kubernetes"]
+    skills: ["Docker", "Kubernetes", "RBAC", "Linux", "Shell", "Platform Engineering", "AI Platform"]
   },
   {
-    title: "Infrastructure Management",
-    icon: Code2,
-    skills: ["Terraform"]
+    title: "Delivery Automation",
+    icon: Workflow,
+    skills: ["GitHub Actions", "GitLab CI", "Jenkins", "Git", "Release Workflows", "Pipeline Design", "AI DevOps"]
   },
   {
-    title: "Version Control Systems",
-    icon: GitBranch,
-    skills: ["Git", "GitHub"]
-  },
-  {
-    title: "Scripting & Automation",
-    icon: Terminal,
-    skills: ["Bash", "Python (Basic)"]
-  },
-  {
-    title: "VPC CMS Tools",
-    icon: Braces,
-    skills: ["BMC Helix", "Citrix", "Service Now"]
-  },
-  {
-    title: "Monitoring Tools",
+    title: "Observability & Reliability",
     icon: Gauge,
-    skills: ["Nagios", "Prometheus", "Grafana"]
+    skills: ["Prometheus", "Grafana", "ELK", "Monitoring", "Incident Readiness", "Platform Engineering Practices", "AI Observability"]
+  },
+  {
+    title: "Engineering Toolkit",
+    icon: Code2,
+    skills: ["Python", "Bash", "YAML", "Infrastructure as Code", "Documentation", "Automation", "AI/ML Tools"]
   }
 ];
 
 export const experience = [
   {
-    company: "Infosys",
-    role: "DevOps Engineer",
-    duration: "9+ years",
-    location: "Bangalore",
+    company: "Infosys Ltd.",
+    role: "Senior Associate Consultant",
+    duration: "Feb 2025 – Present",
+    location: "Noida, India",
     summary:
-      "DevOps Engineer with a focus on cloud infrastructure provisioning, CI/CD pipeline development, containerization, and orchestration.",
+      "Cloud & DevOps Engineer building enterprise-scale cloud platforms, faciliating delivery automation, and infrastructure governance across multiple client engagements.",
     engagements: [
       {
-        client: "Various Clients (ICICI Lombard, Daimler, HCCBPL, AVON)",
-        role: "DevOps Engineer",
+        client: "Charter Communications (USA)",
+        role: "Cloud & DevOps Engineer",
         responsibilities: [
-          "Provisioned cloud infrastructure using Terraform creating VPCs, subnets, route tables, and security groups, which reduced manual setup time by 70% and automated the infrastructure using GitHub Actions.",
-          "Developed and maintained robust CI/CD pipelines using Jenkins and GitHub Actions leading to increase in deployment frequency and a significant reduction in deployment errors.",
-          "Reduced Docker image size by 90%using multi-stage builds, leading to a 50% decrease in deployment time and 40% savings in storage costs.",
-          "Developed and deployed containerized applications using Docker and Kubernetes, improving scalability, deployment speed, and reliability of applications"
+          "Designed and deployed highly available microservices on AWS EKS using Docker and Helm, achieving 99.9% application uptime with Application Load Balancer and Auto Scaling.",
+          "Built and managed CI/CD pipelines using GitHub Actions, automating build, test, and deployment workflows and reducing deployment time by 30%.",
+          "Provisioned AWS infrastructure using Terraform, including VPC, EC2, IAM, and Security Groups, improving deployment consistency and minimizing manual effort.",
+          "Developed Python-based AWS Lambda functions for automated EBS snapshot cleanup and implemented S3 lifecycle policies to optimize storage costs."
         ],
-        technologies: ["Terraform", "GitHub Actions", "Jenkins", "Docker", "Kubernetes"]
+        technologies: ["AWS", "EKS", "Docker", "Helm", "GitHub Actions", "Terraform", "Python", "Lambda", "S3"]
+      },
+      {
+        client: "Aperam Luxembourg",
+        role: "Platform Engineer",
+        responsibilities: [
+          "Deployed AWS Account Factory for Terraform (AFT) in an AWS Control Tower environment to automate standardized AWS account provisioning and governance across AWS Organizations.",
+          "Developed Azure DevOps CI/CD pipelines to automate Terraform validation, security scanning (TFSec), planning, and deployment of AFT infrastructure.",
+          "Integrated TFSec into the Terraform deployment pipeline to enforce Infrastructure as Code security best practices and detect configuration issues before deployment.",
+          "Built and maintained reusable Terraform modules and automated infrastructure deployment workflows, improving consistency, scalability, and operational efficiency across AWS environments."
+        ],
+        technologies: ["AWS", "Azure DevOps", "Terraform", "TFSec", "AWS Control Tower", "AFT"]
+      }
+    ]
+  },
+  {
+    company: "Tata Consultancy Services",
+    role: "Systems Engineer",
+    duration: "Aug 2021 – Feb 2025",
+    location: "Kolkata, India",
+    summary:
+      "Cloud & DevOps Engineer focused on automation, observability, and production operations for enterprise application delivery and cloud environments.",
+    engagements: [
+      {
+        client: "Elisa Corporation (Finland)",
+        role: "Cloud & DevOps Engineer",
+        responsibilities: [
+          "Built and maintained GitHub Actions CI/CD pipelines integrated with SonarQube to automate code quality checks, reducing deployment failures by 50% and improving release speed by 35%.",
+          "Containerized applications using Docker and deployed workloads on Kubernetes, ensuring scalable, highly available, and consistent application deployments across environments.",
+          "Implemented infrastructure and application monitoring using Prometheus and Grafana, configuring dashboards and alerting to improve observability and accelerate incident resolution.",
+          "Automated Linux operational tasks using Bash scripting, streamlining routine maintenance activities, reducing manual effort, and improving operational efficiency."
+        ],
+        technologies: ["GitHub Actions", "SonarQube", "Docker", "Kubernetes", "Prometheus", "Grafana", "Linux", "Bash"]
       }
     ]
   }
@@ -200,10 +217,52 @@ export const flagshipProject = {
 
 export const certifications = [
   {
-    name: "AWS Solution Architect – Associate (Global certification)",
+    name: "AWS Certified Cloud Practitioner",
     issuer: "Amazon Web Services",
     date: "Verified",
-    credlyUrl: "",
+    credlyUrl: "https://www.credly.com/badges/1cfbb40a-b2bf-475d-8e89-4910da3aa58b/public_url",
+    icon: Award
+  },
+  {
+    name: "Microsoft Certified: Azure Fundamentals",
+    issuer: "Microsoft",
+    date: "Verified",
+    credlyUrl: "https://www.credly.com/badges/1c78940f-a55e-4ab1-a9f9-acefc37a6961/",
+    icon: Award
+  },
+  {
+    name: "GitHub Foundations",
+    issuer: "GitHub",
+    date: "Verified",
+    credlyUrl: "https://www.credly.com/earner/earned/badge/1e8e4dac-147e-4989-a920-ec92ae72bd14",
+    icon: Award
+  },
+  {
+    name: "Docker Essentials",
+    issuer: "Docker",
+    date: "Verified",
+    credlyUrl: "https://www.credly.com/earner/earned/badge/4418da20-2bb5-4fcf-9b4e-030ae5eec5b8",
+    icon: Award
+  },
+  {
+    name: "Containers & Kubernetes Essentials",
+    issuer: "IBM",
+    date: "Verified",
+    credlyUrl: "https://www.credly.com/earner/earned/badge/7bfb5641-2bfc-4563-b67c-941b9dd73ccd",
+    icon: Award
+  },
+  {
+    name: "Introduction to GitOps",
+    issuer: "Harness",
+    date: "Verified",
+    credlyUrl: "https://www.credly.com/earner/earned/badge/ec1778c5-4993-4d61-8a44-433256e00c4d",
+    icon: Award
+  },
+  {
+    name: "Harness Certified Continuous Delivery & GitOps Developer",
+    issuer: "Harness",
+    date: "Verified",
+    credlyUrl: "https://www.credly.com/earner/earned/badge/11a08d4a-e56a-43d0-b920-e12414a8d6a7",
     icon: Award
   }
 ];
